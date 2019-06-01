@@ -170,8 +170,8 @@ const lowerCase =
 
 zooAnimals.map(function(zooAnimal){
 
-return zooAnimal.animal_name.toLowerCase();
-
+  return zooAnimal.animal_name.toLowerCase();
+  
 });
 
 console.log(lowerCase); 
@@ -185,8 +185,8 @@ const lowerPopulation =
 
 zooAnimals.filter(function(zooAnimals) {
 
-return zooAnimals.population < 5;
-
+  return zooAnimals.population < 5;
+  
 });
 
 console.log(lowerPopulation);
@@ -198,7 +198,7 @@ The zoos need to know their total animal population across the United States.  F
 */
 const populationTotal = 
 
-zooAnimals.reduce(function (sum, current) {return sum + current.population},0);
+zooAnimals.reduce;(sum, current) =>{return sum + current.population},0;
 
 console.log(populationTotal);
 
